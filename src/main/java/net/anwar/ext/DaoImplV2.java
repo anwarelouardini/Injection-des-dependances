@@ -1,7 +1,9 @@
 package net.anwar.ext;
 
 import net.anwar.dao.IDao;
+import org.springframework.stereotype.Repository;
 
+@Repository("d2")
 public class DaoImplV2 implements IDao {
 
     @Override
