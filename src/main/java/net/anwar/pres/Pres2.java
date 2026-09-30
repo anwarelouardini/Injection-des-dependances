@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Pres2 {
-    static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception{
         Scanner scanner = new Scanner(new File("config.txt"));
 
         String daoClassName = scanner.nextLine();
